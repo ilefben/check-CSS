@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+body {
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: cover;
+}
+nav {
+  display: inline;
+}
+a {
+  border: 1px solid rgb(205, 115, 115);
+  border-radius: 10px;
+  text-decoration: none;
+  border-style: ;
+}
+a:hover {
+  background-color: beige;
+  color: blue;
+}
+/*once the link is clicked it turns to the red color*/
+a:visited {
+  color: red;
+  text-decoration: line-through;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+video {
+  width: 250px;
+  height: 250px;
+}
+img {
+  width: 250px;
+  height: 300px;
+  border-radius: 50%;
+}
+.list {
+  list-style-type: square;
+}
+input,
+select {
+  background-color: rgb(241, 235, 235);
+  border-style: outset;
+  border-radius: 10px;
+  box-shadow: 2px 2px 1px rgb(215, 170, 170);
+}
+input:active {
+  background-color: green;
+}
